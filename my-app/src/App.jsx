@@ -18,14 +18,8 @@ export default function App() {
       <Nav />
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
-      <Card obj={card1} id="card1" />
-      <Card obj={card1} id="card2" />
-      <Card obj={card1} id="card3" />
-      <Card obj={card1} id="card4" />
-      <Card obj={card1} id="card5" />
-      <Card obj={card1} id="card6" />
-      <Card obj={card1} id="card7" />
-      <Card obj={card1} id="card8" />
+      <Card obj={card1} />
+     />
     </div>
   );
 }
